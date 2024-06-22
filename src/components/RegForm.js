@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { useFormValidation } from "./useFormValidation";
-import { FormField, SelectField } from "./FormField";
+import { useFormValidation } from "../hooks/useFormValidation";
+import FormField from "./FormField";
+import SelectField from "./SelectField";
 import Summary from "./Summary";
 
 function RegForm() {
